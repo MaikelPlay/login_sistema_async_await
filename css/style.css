@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+#login {
+	width: 480px;
+}
+#logged {
+	width: 960px;
+}
+#login, #logged {
+	margin: 50px auto;
+	border: 3px solid #b1b1b1;
+	padding: 20px;
+	background-color: #f7f7f7;
+	border-radius: 10px;
+	text-align: center;
+}
+label {
+	display: block;
+}
+input {
+	margin-bottom: 15px;
+}
+#avatar img {
+	width: 100px;
+}
+.message-box {
+	margin-top: 40px;
+}
+.oculto {
+	display: none;
+}
+.visible {
+	display: block;
+}
